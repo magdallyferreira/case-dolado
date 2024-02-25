@@ -18,12 +18,10 @@ Para baixar um arquivo .pbix do GitHub e executá-lo no Power BI, siga estas eta
 Navegue até o repositório GitHub que contém o arquivo .pbix.
 Localize a pasta que contém o arquivo .pbix.
 Clique no nome do arquivo .pbix para abri-lo na visualização de arquivo.
-\n
 
 2. Baixe o arquivo .pbix:
 
 Clique no botão "Baixar" no canto superior direito da tela.
 Selecione "Salvar arquivo" e escolha um local para salvar o arquivo em seu computador.
 
-\n
 Aqui está também o link do Dashboard publicado: https://bit.ly/analisedolado
