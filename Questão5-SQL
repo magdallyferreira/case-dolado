@@ -1,0 +1,11 @@
+SELECT vendedor
+FROM (
+  SELECT 
+    vendedor,
+    COUNT(*) AS num_transferencias,
+    SUM(valor) AS total_recebido
+  FROM comissoes
+  GROUP BY vendedor
+) AS estatisticas_vendedores
+HAVING num_transferencias <= 3 AND total_recebido <= 1024
+ORDER BY vendedor ASC;
